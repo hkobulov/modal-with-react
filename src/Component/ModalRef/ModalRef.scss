@@ -1,0 +1,46 @@
+.modal {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal--inner {
+    position: relative;
+    top: 25%;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    padding: 15px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.modal--inner__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.modal--open.modal {
+    display: block;
+}
+
+.modalref__btn {
+    display: block;
+    width: 150px;
+    margin: 3px auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: maroon;
+    color: mediumblue;
+    text-align: center;
+}
